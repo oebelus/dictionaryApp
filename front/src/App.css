@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&family=UnifrakturMaguntia&display=swap');
+
+* {
+    margin: 0;
+    outline: none;
+}
+
+.App {
+    margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+body {
+    background-color: #181A1B;
+    line-height: 1.6;
+}
+
+.navContainer {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    gap: 20px;
+    padding: 10px; 
+}
+
+.nav-link {
+    color: #fff;
+    margin: 0 15px;
+    font-family: 'Roboto mono';
+    border-radius: 7px;
+    font-size: 1.2rem;
+    padding: 20px 30px;
+    transition: background-color 0.3s ease;
+}
+
+.navLinks {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link.logout-link button {
+    color: #fff;
+    font-family: 'Roboto mono';
+    border-radius: 7px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+    background: transparent; 
+    border: none;
+    cursor: pointer;
+}
+
+.navBar a:hover {
+    background-color: #17191A;
+}
+
+.header {
+    display: flex;
+    gap: 48%;
+    margin-left: 30px;
+}
+
+.searchBar {
+    height: 20%;
+    width: 40%;
+    float: right;
+    margin-left: -20%;
+}
+
+.formWord {
+    padding: 20px;
+}
+
+.formWord h3 {
+    color: white;
+    font-family: cursive;
+}
+
+.block {
+    position: sticky;
+    float: right;
+    width: 27%;
+    height: 17em;
+    gap: 10px;
+    padding: 30px;
+    z-index: 1;
+    margin-right: 25px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.word, .meaning {
+    height: 2.2em;
+    background-color: #fafafa;
+    padding: 5px;
+}
+
+.dictionaryBlock {
+    margin-top: 15px;
+    background-color: rgba(255, 255, 255, 0.692);
+    padding: 0.4rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 20px;
+    width: 65%;
+    position: relative;
+}
+
+.paragraph {
+    font-size: 20px;
+    color: black;
+    margin-left: 10px
+}
+
+.wordParagraph {
+    font-family: cursive;
+    margin-bottom: -4px;
+    font-style: italic;
+}
+
+.meaningParagraph {
+    margin-left: 10px;
+}
+
+.btn-group {
+    height: 40px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px
+}
+
+.editDictionary {
+    border-radius: 10px;
+    background-color: #1B1E1F;
+    color: white;
+    padding: 10px;
+    border-color: black;
+}
+
+.addText {
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.warningWord, .warningMeaning {
+    margin-top: -14px;
+    margin-bottom: 0;
+    color: rgba(0, 0, 0, 0.507);
+    margin-left: 2px;
+}
+
+.navbar {
+    background-color: #1B1E1F !important;
+    color: white;
+    font-family: 'Crafty Girls', cursive;
+}
+
+.navbar h1 {
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 3.5rem;
+}
+
+.identification {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    height: 70vh;
+}
+
+.form-container {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #17191A;
+    border: 1px solid #393c3d;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    color: white;
+    font-family: 'Roboto mono';
+    line-height: 1.6;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.form-container h2 {
+    margin-bottom: 1px !important;
+    margin-top: -15px;
+}
+
+.form-login {
+    width: 300px
+}
+
+.form-signup {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 78vh;
+}
+
+.form-flex {
+    display: flex;
+    gap: 20px
+}
+
+.form-container h2 {
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #60686C;
+    border: 1px solid #2B2A33;
+    border-radius: 5px;
+    color: white;
+}
+
+.form-label {
+    margin-left: 5px;
+}
+
+.form-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #1B1E1F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Crafty Girls', cursive;
+}
+
+.form-button:hover {
+    background-color: #181A1B;
+}
+  
+/* grey: #60686C 
+    add: #2B2A33
+    nav: #181A1B */
+@media (max-width: 768px) {
+    .navBar a {
+        padding: 5px 10px;
+        font-size: 1.2rem;
+    }
+
+    .nav-link.profile-link {
+        padding: 10px 20px;
+    }
+
+    .searchBar {
+        width: 100%;
+    }
+
+    .block {
+        width: 90%;
+        position: absolute;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .dictionaryBlock {
+        width: 100%;
+    }
+    
+    .formWord {
+        position: relative;
+        top: 300px !important;
+    }
+    
+    .header {
+        margin-left: 0;
+    }
+
+    .word, .meaning {
+        height: auto;
+        padding: 10px;
+    }
+    
+    .form-container h2 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    .form-login {
+        width: 80%;
+    }
+
+    .form-signup {
+        width: 80%;
+        height: auto;
+    }
+
+    .signupText {
+        position: relative;
+        top: 10px;
+    }
+
+    .loginText {
+        position: relative;
+        top: 10px;
+    }
+
+    .form-flex {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .identification {
+        flex-direction: column;
+    }
+}
