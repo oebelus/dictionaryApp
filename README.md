@@ -11,3 +11,35 @@ One day, I was using the Notepad app to store some English words and their meani
 ![Home](https://github.com/xertendsz/dictionary-app/blob/main/images/home-m.png)
 ![Login](https://github.com/xertendsz/dictionary-app/blob/main/images/log-m.png)
 
+### Features
+- Login and Register
+- CRUD functionality
+- Responsive application
+
+### Technologies Used
+
+#### Front End : 
+- React
+- Javascript
+- HTML/CSS
+- Bootstrap
+
+#### Back End : 
+- Express
+- Cors
+- Nodemon
+- Sequelize 
+- MySQL
+
+### To Run it
+```
+git clone https://github.com/xertendsz/dictionary-app.git
+```
+```
+cd back
+npm start
+```
+```
+cd front
+npm start
+```
