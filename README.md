@@ -18,18 +18,9 @@ One day, I was using the Notepad app to store some English words and their meani
 
 ### Technologies Used
 
-#### Front End : 
-- React
-- Javascript
-- HTML/CSS
-- Bootstrap
+- **Frontend** : React, Javascript, HTML/CSS, Bootstrap
 
-#### Back End : 
-- Express
-- Cors
-- Nodemon
-- Sequelize 
-- MySQL
+- **Backend** : Express, Cors, Nodemon, Sequelize, MySQL
 
 ### To Run it
 ```
