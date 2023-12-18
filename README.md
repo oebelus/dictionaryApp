@@ -28,10 +28,10 @@ npm start
 ```
 
 ### Pictures
-#### Desktop:<br>
+- **Desktop:**<br>
 ![Home](https://github.com/xertendsz/dictionary-app/blob/main/images/home-d.png)
 ![Login](https://github.com/xertendsz/dictionary-app/blob/main/images/log-d.png)
 
-#### Mobile:<br>
+- **Mobile:**<br>
 ![Home](https://github.com/xertendsz/dictionary-app/blob/main/images/home-m.png)
 ![Login](https://github.com/xertendsz/dictionary-app/blob/main/images/log-m.png)
